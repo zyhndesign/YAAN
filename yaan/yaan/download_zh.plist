@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>downLoadName</key>
+		<string>音乐</string>
+		<key>downloadResult</key>
+		<string>成功 %d 个, 失败 %d 个</string>
+		<key>downProgress</key>
+		<string>%0.2f%%</string>
+	</dict>
+	<dict>
+		<key>downLoadName</key>
+		<string>风景</string>
+		<key>downloadResult</key>
+		<string>成功 %d 个, 失败 %d 个</string>
+		<key>downProgress</key>
+		<string>%0.2f%%</string>
+	</dict>
+	<dict>
+		<key>downLoadName</key>
+		<string>人文</string>
+		<key>downloadResult</key>
+		<string>成功 %d 个, 失败 %d 个</string>
+		<key>downProgress</key>
+		<string>%0.2f%%</string>
+	</dict>
+	<dict>
+		<key>downLoadName</key>
+		<string>物语</string>
+		<key>downloadResult</key>
+		<string>成功 %d 个, 失败 %d 个</string>
+		<key>downProgress</key>
+		<string>%0.2f%%</string>
+	</dict>
+	<dict>
+		<key>downLoadName</key>
+		<string>社区</string>
+		<key>downloadResult</key>
+		<string>成功 %d 个, 失败 %d 个</string>
+		<key>downProgress</key>
+		<string>%0.2f%%</string>
+	</dict>
+	<dict>
+		<key>downLoadName</key>
+		<string>视频</string>
+		<key>downloadResult</key>
+		<string>成功 %d 个, 失败 %d 个</string>
+		<key>downProgress</key>
+		<string>%0.2f%%</string>
+	</dict>
+</array>
+</plist>

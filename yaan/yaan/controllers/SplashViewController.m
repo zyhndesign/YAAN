@@ -103,7 +103,7 @@ NSUserDefaults *baseInfo = nil;
         getDataTime = @"0";
     }
     
-    NSURL *visitPath = [NSURL URLWithString:[[[rootPath stringByAppendingString:@"/travel/dataUpdate.json?lastUpdateDate="] stringByAppendingString:getDataTime ] stringByAppendingString: @"&category=6"]];
+    NSURL *visitPath = [NSURL URLWithString:[[[rootPath stringByAppendingString:@"/travel/dataUpdate.json?lastUpdateDate="] stringByAppendingString:getDataTime ] stringByAppendingString: @"&category=18"]];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:visitPath];
     
@@ -139,19 +139,19 @@ NSUserDefaults *baseInfo = nil;
                 
                 [muDict setObject:[info objectForKey:@"background"] forKey:@"max_bg_img"];
                 
-                if ([[info objectForKey:@"category"] isEqual:@"6/10"])
+                if ([[info objectForKey:@"category"] isEqual:@"18/19"])
                 {
                     [muDict setObject:[NSNumber numberWithInt:LANDSCAPE_CATEGORY] forKey:@"category"];
                 }
-                else if ([[info objectForKey:@"category"] isEqual:@"6/7"])
+                else if ([[info objectForKey:@"category"] isEqual:@"18/20"])
                 {
                     [muDict setObject:[NSNumber numberWithInt:HUMANITY_CATEGORY] forKey:@"category"];
                 }
-                else if ([[info objectForKey:@"category"] isEqual:@"6/8"])
+                else if ([[info objectForKey:@"category"] isEqual:@"18/21"])
                 {
                     [muDict setObject:[NSNumber numberWithInt:STORY_CATEGORY] forKey:@"category"];
                 }
-                else if ([[info objectForKey:@"category"] isEqual:@"6/9"])
+                else if ([[info objectForKey:@"category"] isEqual:@"18/22"])
                 {
                     [muDict setObject:[NSNumber numberWithInt:COMMUNITY_CATEGORY] forKey:@"category"];
                 }

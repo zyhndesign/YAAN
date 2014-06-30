@@ -8,6 +8,56 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class SuperColumnViewController;
+@class FooterViewController;
+@class MusicViewController;
 
+@interface ViewController : UIViewController<UIScrollViewDelegate>
+{
+    IBOutlet UIScrollView *mainScrollView;
+    
+    SuperColumnViewController *homeViewController;
+    SuperColumnViewController *landscapeViewController;
+    SuperColumnViewController *humanityViewController;
+    SuperColumnViewController *storyViewController;
+    SuperColumnViewController *communityViewController;
+    FooterViewController *footerViewController;
+    
+    MusicViewController *musicViewController;
+    
+    IBOutlet UIImageView *menuViewBtn;
+    IBOutlet UIImageView *musicBtn;
+    IBOutlet UIView *menuPanel;
+    /**
+     *  在ScrollView 中各个栏目Y坐标值
+     */
+    int landscapeYValue;
+    int humanityYValue;
+    int storyYValue;
+    int communityYValue;
+    
+    IBOutlet UIButton *recommendBtn;
+    IBOutlet UIButton *landscapeBtn;
+    IBOutlet UIButton *humanityBtn;
+    IBOutlet UIButton *storyBtn;
+    IBOutlet UIButton *communityBtn;
+    
+}
+@property (strong, nonatomic) IBOutlet UIScrollView *mainScrollView;
+@property (strong, nonatomic) IBOutlet UIImageView *menuViewBtn;
+@property (strong, nonatomic) IBOutlet UIView *menuPanel;
+@property (strong, nonatomic) IBOutlet UIImageView *musicBtn;
+
+@property (strong, nonatomic) IBOutlet UIButton *recommendBtn;
+@property (strong, nonatomic) IBOutlet UIButton *landscapeBtn;
+@property (strong, nonatomic) IBOutlet UIButton *humanityBtn;
+@property (strong, nonatomic) IBOutlet UIButton *storyBtn;
+@property (strong, nonatomic) IBOutlet UIButton *communityBtn;
+
+
+- (IBAction)recommandBtnClick:(id)sender;
+- (IBAction)landscapeBtnClick:(id)sender;
+- (IBAction)humanityBtnClick:(id)sender;
+- (IBAction)storyBtnClick:(id)sender;
+- (IBAction)communityBtnClick:(id)sender;
 @end

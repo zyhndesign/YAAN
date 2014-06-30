@@ -72,6 +72,21 @@
 		D52A44001960EC6C009B75CE /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D52A43FF1960EC6C009B75CE /* libz.1.2.5.dylib */; };
 		D52A44021960EC7C009B75CE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D52A44011960EC7C009B75CE /* libsqlite3.0.dylib */; };
 		D52A44041960EC95009B75CE /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D52A44031960EC95009B75CE /* libGoogleAnalyticsServices.a */; };
+		D52A4415196142A1009B75CE /* CommunityBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4406196142A1009B75CE /* CommunityBoard.xib */; };
+		D52A4416196142A1009B75CE /* CommunityContentPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4407196142A1009B75CE /* CommunityContentPanel.xib */; };
+		D52A4417196142A1009B75CE /* DownloadTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4408196142A1009B75CE /* DownloadTableViewCell.xib */; };
+		D52A4418196142A1009B75CE /* DownloadWin.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4409196142A1009B75CE /* DownloadWin.xib */; };
+		D52A4419196142A1009B75CE /* Footer.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A440A196142A1009B75CE /* Footer.xib */; };
+		D52A441A196142A1009B75CE /* HomeBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A440B196142A1009B75CE /* HomeBoard.xib */; };
+		D52A441B196142A1009B75CE /* HumanityBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A440C196142A1009B75CE /* HumanityBoard.xib */; };
+		D52A441C196142A1009B75CE /* HumanityContentPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A440D196142A1009B75CE /* HumanityContentPanel.xib */; };
+		D52A441D196142A1009B75CE /* LandscapeBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A440E196142A1009B75CE /* LandscapeBoard.xib */; };
+		D52A441E196142A1009B75CE /* LandscapeContentPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A440F196142A1009B75CE /* LandscapeContentPanel.xib */; };
+		D52A441F196142A1009B75CE /* MusicPlayerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4410196142A1009B75CE /* MusicPlayerView.xib */; };
+		D52A4420196142A1009B75CE /* PopDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4411196142A1009B75CE /* PopDetailView.xib */; };
+		D52A4421196142A1009B75CE /* StoryBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4412196142A1009B75CE /* StoryBoard.xib */; };
+		D52A4422196142A1009B75CE /* StoryContentPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4413196142A1009B75CE /* StoryContentPanel.xib */; };
+		D52A4423196142A1009B75CE /* VideoPlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4414196142A1009B75CE /* VideoPlay.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +225,21 @@
 		D52A43FF1960EC6C009B75CE /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		D52A44011960EC7C009B75CE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		D52A44031960EC95009B75CE /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = "../../../../MAC_DATA/第三方组件/GoogleAnalyticsServicesiOS_3.06/libGoogleAnalyticsServices.a"; sourceTree = "<group>"; };
+		D52A4406196142A1009B75CE /* CommunityBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityBoard.xib; sourceTree = "<group>"; };
+		D52A4407196142A1009B75CE /* CommunityContentPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommunityContentPanel.xib; sourceTree = "<group>"; };
+		D52A4408196142A1009B75CE /* DownloadTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadTableViewCell.xib; sourceTree = "<group>"; };
+		D52A4409196142A1009B75CE /* DownloadWin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadWin.xib; sourceTree = "<group>"; };
+		D52A440A196142A1009B75CE /* Footer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Footer.xib; sourceTree = "<group>"; };
+		D52A440B196142A1009B75CE /* HomeBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeBoard.xib; sourceTree = "<group>"; };
+		D52A440C196142A1009B75CE /* HumanityBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HumanityBoard.xib; sourceTree = "<group>"; };
+		D52A440D196142A1009B75CE /* HumanityContentPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HumanityContentPanel.xib; sourceTree = "<group>"; };
+		D52A440E196142A1009B75CE /* LandscapeBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeBoard.xib; sourceTree = "<group>"; };
+		D52A440F196142A1009B75CE /* LandscapeContentPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandscapeContentPanel.xib; sourceTree = "<group>"; };
+		D52A4410196142A1009B75CE /* MusicPlayerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicPlayerView.xib; sourceTree = "<group>"; };
+		D52A4411196142A1009B75CE /* PopDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopDetailView.xib; sourceTree = "<group>"; };
+		D52A4412196142A1009B75CE /* StoryBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryBoard.xib; sourceTree = "<group>"; };
+		D52A4413196142A1009B75CE /* StoryContentPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryContentPanel.xib; sourceTree = "<group>"; };
+		D52A4414196142A1009B75CE /* VideoPlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoPlay.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -281,6 +311,7 @@
 		D52A432B1960E8E8009B75CE /* yaan */ = {
 			isa = PBXGroup;
 			children = (
+				D52A440519614251009B75CE /* xibs */,
 				D52A43D11960EB9C009B75CE /* controllers */,
 				D52A43CD1960EB77009B75CE /* Constants.h */,
 				D52A43CE1960EB77009B75CE /* Constants.m */,
@@ -533,6 +564,28 @@
 			path = controllers;
 			sourceTree = "<group>";
 		};
+		D52A440519614251009B75CE /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				D52A4406196142A1009B75CE /* CommunityBoard.xib */,
+				D52A4407196142A1009B75CE /* CommunityContentPanel.xib */,
+				D52A4408196142A1009B75CE /* DownloadTableViewCell.xib */,
+				D52A4409196142A1009B75CE /* DownloadWin.xib */,
+				D52A440A196142A1009B75CE /* Footer.xib */,
+				D52A440B196142A1009B75CE /* HomeBoard.xib */,
+				D52A440C196142A1009B75CE /* HumanityBoard.xib */,
+				D52A440D196142A1009B75CE /* HumanityContentPanel.xib */,
+				D52A440E196142A1009B75CE /* LandscapeBoard.xib */,
+				D52A440F196142A1009B75CE /* LandscapeContentPanel.xib */,
+				D52A4410196142A1009B75CE /* MusicPlayerView.xib */,
+				D52A4411196142A1009B75CE /* PopDetailView.xib */,
+				D52A4412196142A1009B75CE /* StoryBoard.xib */,
+				D52A4413196142A1009B75CE /* StoryContentPanel.xib */,
+				D52A4414196142A1009B75CE /* VideoPlay.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -609,9 +662,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D52A4416196142A1009B75CE /* CommunityContentPanel.xib in Resources */,
+				D52A441F196142A1009B75CE /* MusicPlayerView.xib in Resources */,
+				D52A4415196142A1009B75CE /* CommunityBoard.xib in Resources */,
+				D52A4419196142A1009B75CE /* Footer.xib in Resources */,
+				D52A441C196142A1009B75CE /* HumanityContentPanel.xib in Resources */,
+				D52A4422196142A1009B75CE /* StoryContentPanel.xib in Resources */,
+				D52A441E196142A1009B75CE /* LandscapeContentPanel.xib in Resources */,
 				D52A433E1960E8E8009B75CE /* Images.xcassets in Resources */,
+				D52A441A196142A1009B75CE /* HomeBoard.xib in Resources */,
+				D52A4421196142A1009B75CE /* StoryBoard.xib in Resources */,
 				D52A43301960E8E8009B75CE /* InfoPlist.strings in Resources */,
+				D52A4423196142A1009B75CE /* VideoPlay.xib in Resources */,
+				D52A4418196142A1009B75CE /* DownloadWin.xib in Resources */,
 				D52A43391960E8E8009B75CE /* Main.storyboard in Resources */,
+				D52A4417196142A1009B75CE /* DownloadTableViewCell.xib in Resources */,
+				D52A441D196142A1009B75CE /* LandscapeBoard.xib in Resources */,
+				D52A441B196142A1009B75CE /* HumanityBoard.xib in Resources */,
+				D52A4420196142A1009B75CE /* PopDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -896,6 +964,7 @@
 				D52A43561960E8E8009B75CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D52A43571960E8E8009B75CE /* Build configuration list for PBXNativeTarget "yaanTests" */ = {
 			isa = XCConfigurationList;
@@ -904,6 +973,7 @@
 				D52A43591960E8E8009B75CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
