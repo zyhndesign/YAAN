@@ -91,6 +91,7 @@
 		D5F0075C19624BCF00D25B71 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5F0075E19624BCF00D25B71 /* Localizable.strings */; };
 		D5F0076119624DC600D25B71 /* yaan-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F0076019624DC600D25B71 /* yaan-Info.plist */; };
 		D5F0076319624FBD00D25B71 /* download_zh.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F0076219624FBD00D25B71 /* download_zh.plist */; };
+		D5F007661962665300D25B71 /* cover.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D5F007651962665300D25B71 /* cover.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -252,6 +253,7 @@
 		D5F0075F19624BD400D25B71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D5F0076019624DC600D25B71 /* yaan-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "yaan-Info.plist"; sourceTree = "<group>"; };
 		D5F0076219624FBD00D25B71 /* download_zh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = download_zh.plist; sourceTree = "<group>"; };
+		D5F007651962665300D25B71 /* cover.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cover.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +327,7 @@
 		D52A432B1960E8E8009B75CE /* yaan */ = {
 			isa = PBXGroup;
 			children = (
+				D5F007641962663900D25B71 /* mediaResources */,
 				D52A440519614251009B75CE /* xibs */,
 				D52A43D11960EB9C009B75CE /* controllers */,
 				D52A43CD1960EB77009B75CE /* Constants.h */,
@@ -602,6 +605,14 @@
 			path = xibs;
 			sourceTree = "<group>";
 		};
+		D5F007641962663900D25B71 /* mediaResources */ = {
+			isa = PBXGroup;
+			children = (
+				D5F007651962665300D25B71 /* cover.mp4 */,
+			);
+			path = mediaResources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -696,6 +707,7 @@
 				D52A4418196142A1009B75CE /* DownloadWin.xib in Resources */,
 				D52A43391960E8E8009B75CE /* Main.storyboard in Resources */,
 				D52A4417196142A1009B75CE /* DownloadTableViewCell.xib in Resources */,
+				D5F007661962665300D25B71 /* cover.mp4 in Resources */,
 				D52A441D196142A1009B75CE /* LandscapeBoard.xib in Resources */,
 				D5F0075C19624BCF00D25B71 /* Localizable.strings in Resources */,
 				D52A441B196142A1009B75CE /* HumanityBoard.xib in Resources */,

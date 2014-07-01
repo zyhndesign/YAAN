@@ -7,6 +7,7 @@
 //
 
 #import "SuperColumnViewController.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface HomeViewController : SuperColumnViewController
 {
@@ -27,6 +28,9 @@
     IBOutlet UIImageView *fourArticleThumb;
     IBOutlet UILabel *fourArticleTitleLabel;
     IBOutlet UILabel *fourArticleSummaryLabel;
+    
+    MPMoviePlayerViewController *mp;
+    MPMoviePlayerController *player;
     
 }
 @property (nonatomic, strong) IBOutlet UIImageView *homeTopBackground;

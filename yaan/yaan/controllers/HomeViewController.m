@@ -132,6 +132,34 @@ PopupDetailViewController* detailViewController;
     {
         fourViewPanel.hidden = YES;
     }
+    
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"cover" ofType:@"mp4"];
+    
+    NSLog(@"%@", path);
+    
+    if ([fileUtils fileISExist:path])
+    {
+        NSURL *mp4Url = [NSURL fileURLWithPath:path];
+        
+        mp = [[MPMoviePlayerViewController alloc] initWithContentURL:mp4Url];
+        mp.view.frame = CGRectMake(homeTopBackground.frame.origin.x, 0.0, homeTopBackground.frame.size.width, homeTopBackground.frame.size.height);
+        [self.view addSubview:mp.view];
+        homeTopBackground.hidden = YES;
+        [self.view sendSubviewToBack:mp.view];
+        player = [mp moviePlayer];
+        [player setRepeatMode:MPMovieRepeatModeOne];
+        mp.view.userInteractionEnabled = NO;
+        player.shouldAutoplay = YES;
+        player.controlStyle = MPMovieControlStyleNone;
+        player.scalingMode = MPMovieScalingModeAspectFill;
+        
+        //[player setFullscreen:YES];
+        [player play];
+        
+        
+    }
+
 }
 
 #define HeighTop 825
