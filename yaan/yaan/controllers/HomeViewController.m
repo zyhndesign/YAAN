@@ -23,7 +23,6 @@
 @synthesize secondViewPanel,secondArticleThumb,secondArticleTitleLabel,secondArticleSummaryLabel;
 @synthesize threeViewPanel,threeArticleThumb,threeArticleTitleLabel,threeArticleSummaryLabel;
 @synthesize fourViewPanel,fourArticleThumb,fourArticleTitleLabel,fourArticleSummaryLabel;
-@synthesize animationLeftImg, animationRightImg;
 @synthesize homeTopBackground;
 
 extern DBUtils *db;
@@ -137,16 +136,6 @@ PopupDetailViewController* detailViewController;
 
 #define HeighTop 825
 
-- (void)rootscrollViewDidScrollToPointY:(int)pointY
-{
-    if (pointY > 200 && pointY < homeTopBackground.frame.size.height)
-    {
-        int positionY = 1250 - (pointY - 200)/2;
-        positionY = positionY < HeighTop ? HeighTop:positionY;
-        [animationLeftImg setFrame:CGRectMake(animationLeftImg.frame.origin.x, positionY, animationLeftImg.frame.size.width, animationLeftImg.frame.size.height)];
-        [animationRightImg setFrame:CGRectMake(animationRightImg.frame.origin.x, positionY, animationRightImg.frame.size.width, animationRightImg.frame.size.height)];
-    }
-}
 
 - (void)didReceiveMemoryWarning
 {

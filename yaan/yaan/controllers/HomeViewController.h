@@ -28,8 +28,6 @@
     IBOutlet UILabel *fourArticleTitleLabel;
     IBOutlet UILabel *fourArticleSummaryLabel;
     
-    IBOutlet UIImageView *animationLeftImg;    
-    IBOutlet UIImageView *animationRightImg;
 }
 @property (nonatomic, strong) IBOutlet UIImageView *homeTopBackground;
 
@@ -48,7 +46,5 @@
 @property (nonatomic, strong) IBOutlet UILabel *fourArticleTitleLabel;
 @property (nonatomic, strong) IBOutlet UILabel *fourArticleSummaryLabel;
 
-@property (nonatomic, strong) IBOutlet UIImageView *animationLeftImg;
-@property (nonatomic, strong) IBOutlet UIImageView *animationRightImg;
 
 @end

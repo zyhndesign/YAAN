@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  yaan
+
+  Created by 工业设计中意（湖南） on 14-7-1.
+  Copyright (c) 2014年 中意工业设计（湖南）有限责任公司. All rights reserved.
+*/
+"Community"="Community";
+"Landscape"="Landscape";
+"Humanity"="Humanity";
+"Story"="Story";
+"CopyRight"="@HNID CopyRight";
+"DeveloperCorporation"="develop by zyhndesign";
+"Remind"="remind";
+"Confirm"="confirm";
+"3gwarn"="3G network is not support download!";
+"NetworkUnreachable"="please setting your wifi network!";
+"OfflineCache"="offline cache";
+"Close"="close";
+"Video"="Video";
+"projectBg"="";

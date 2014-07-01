@@ -30,7 +30,6 @@
                     <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
                         <action selector="changePage:" destination="-1" eventType="valueChanged" id="Ixl-bK-vmK"/>
-                        <action selector="pageChange:" destination="-1" eventType="valueChanged" id="lra-Hf-ksa"/>
                     </connections>
                 </pageControl>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="laBg" translatesAutoresizingMaskIntoConstraints="NO" id="CTN-9M-akX">
@@ -45,12 +44,16 @@
                     <rect key="frame" x="0.0" y="668" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="laWords" translatesAutoresizingMaskIntoConstraints="NO" id="NP2-Y1-EDh">
+                    <rect key="frame" x="98" y="514" width="829" height="444"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
         </view>
     </objects>
     <resources>
-        <image name="laBg" width="1024" height="770"/>
+        <image name="laBg" width="1024" height="768"/>
         <image name="laMoutain" width="1024" height="768"/>
         <image name="laRain" width="1024" height="768"/>
         <image name="laWords" width="829" height="444"/>

@@ -138,12 +138,12 @@
                     <rect key="frame" x="487" y="605" width="50" height="50"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="coverLogo" translatesAutoresizingMaskIntoConstraints="NO" id="NPU-Op-NUc">
-                    <rect key="frame" x="304" y="167" width="420" height="270"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="featured" translatesAutoresizingMaskIntoConstraints="NO" id="hEV-8q-p8t">
                     <rect key="frame" x="329" y="788" width="370" height="150"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="coverLogo" translatesAutoresizingMaskIntoConstraints="NO" id="eMf-vf-eAO">
+                    <rect key="frame" x="230" y="195" width="565" height="300"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
             </subviews>

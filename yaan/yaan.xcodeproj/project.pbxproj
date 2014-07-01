@@ -36,18 +36,18 @@
 		D52A43BA1960EB07009B75CE /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43771960EB07009B75CE /* AFURLConnectionOperation.m */; };
 		D52A43BB1960EB07009B75CE /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43791960EB07009B75CE /* AFXMLRequestOperation.m */; };
 		D52A43BC1960EB07009B75CE /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A437B1960EB07009B75CE /* UIImageView+AFNetworking.m */; };
-		D52A43BD1960EB07009B75CE /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A437E1960EB07009B75CE /* AudioStreamer.m */; };
+		D52A43BD1960EB07009B75CE /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A437E1960EB07009B75CE /* AudioStreamer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D52A43BE1960EB07009B75CE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43821960EB07009B75CE /* FMDatabase.m */; };
 		D52A43BF1960EB07009B75CE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43841960EB07009B75CE /* FMDatabaseAdditions.m */; };
 		D52A43C01960EB07009B75CE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43861960EB07009B75CE /* FMDatabasePool.m */; };
 		D52A43C11960EB07009B75CE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43881960EB07009B75CE /* FMDatabaseQueue.m */; };
 		D52A43C21960EB07009B75CE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A438A1960EB07009B75CE /* FMResultSet.m */; };
-		D52A43C31960EB07009B75CE /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A438D1960EB07009B75CE /* GDataXMLNode.m */; };
-		D52A43C41960EB07009B75CE /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43901960EB07009B75CE /* JSONKit.m */; };
+		D52A43C31960EB07009B75CE /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A438D1960EB07009B75CE /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D52A43C41960EB07009B75CE /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43901960EB07009B75CE /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D52A43C51960EB07009B75CE /* MJPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43931960EB07009B75CE /* MJPopupBackgroundView.m */; };
 		D52A43C61960EB07009B75CE /* UIViewController+MJPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43951960EB07009B75CE /* UIViewController+MJPopupViewController.m */; };
 		D52A43C71960EB07009B75CE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A43981960EB07009B75CE /* Reachability.m */; };
-		D52A43C81960EB07009B75CE /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A439B1960EB07009B75CE /* ZipArchive.m */; };
+		D52A43C81960EB07009B75CE /* ZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = D52A439B1960EB07009B75CE /* ZipArchive.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D52A43C91960EB07009B75CE /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = D52A439E1960EB07009B75CE /* ioapi.c */; };
 		D52A43CA1960EB07009B75CE /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = D52A43A01960EB07009B75CE /* mztools.c */; };
 		D52A43CB1960EB07009B75CE /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = D52A43A21960EB07009B75CE /* unzip.c */; };
@@ -87,6 +87,10 @@
 		D52A4421196142A1009B75CE /* StoryBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4412196142A1009B75CE /* StoryBoard.xib */; };
 		D52A4422196142A1009B75CE /* StoryContentPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4413196142A1009B75CE /* StoryContentPanel.xib */; };
 		D52A4423196142A1009B75CE /* VideoPlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = D52A4414196142A1009B75CE /* VideoPlay.xib */; };
+		D5F00752196246B200D25B71 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F00751196246B200D25B71 /* CoreData.framework */; };
+		D5F0075C19624BCF00D25B71 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5F0075E19624BCF00D25B71 /* Localizable.strings */; };
+		D5F0076119624DC600D25B71 /* yaan-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F0076019624DC600D25B71 /* yaan-Info.plist */; };
+		D5F0076319624FBD00D25B71 /* download_zh.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F0076219624FBD00D25B71 /* download_zh.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +108,6 @@
 		D52A43251960E8E8009B75CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D52A43271960E8E8009B75CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D52A43291960E8E8009B75CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D52A432D1960E8E8009B75CE /* yaan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "yaan-Info.plist"; sourceTree = "<group>"; };
 		D52A432F1960E8E8009B75CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D52A43311960E8E8009B75CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D52A43331960E8E8009B75CE /* yaan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yaan-Prefix.pch"; sourceTree = "<group>"; };
@@ -240,6 +243,15 @@
 		D52A4412196142A1009B75CE /* StoryBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryBoard.xib; sourceTree = "<group>"; };
 		D52A4413196142A1009B75CE /* StoryContentPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryContentPanel.xib; sourceTree = "<group>"; };
 		D52A4414196142A1009B75CE /* VideoPlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoPlay.xib; sourceTree = "<group>"; };
+		D5F00751196246B200D25B71 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D5F007551962498000D25B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D5F0075819624BBC00D25B71 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D5F0075A19624BBC00D25B71 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D5F0075B19624BBC00D25B71 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D5F0075D19624BCF00D25B71 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		D5F0075F19624BD400D25B71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D5F0076019624DC600D25B71 /* yaan-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "yaan-Info.plist"; sourceTree = "<group>"; };
+		D5F0076219624FBD00D25B71 /* download_zh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = download_zh.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +259,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F00752196246B200D25B71 /* CoreData.framework in Frameworks */,
 				D52A44041960EC95009B75CE /* libGoogleAnalyticsServices.a in Frameworks */,
 				D52A44021960EC7C009B75CE /* libsqlite3.0.dylib in Frameworks */,
 				D52A44001960EC6C009B75CE /* libz.1.2.5.dylib in Frameworks */,
@@ -294,6 +307,7 @@
 		D52A43241960E8E8009B75CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D5F00751196246B200D25B71 /* CoreData.framework */,
 				D52A44031960EC95009B75CE /* libGoogleAnalyticsServices.a */,
 				D52A44011960EC7C009B75CE /* libsqlite3.0.dylib */,
 				D52A43FF1960EC6C009B75CE /* libz.1.2.5.dylib */,
@@ -332,7 +346,9 @@
 		D52A432C1960E8E8009B75CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D52A432D1960E8E8009B75CE /* yaan-Info.plist */,
+				D5F0076219624FBD00D25B71 /* download_zh.plist */,
+				D5F0076019624DC600D25B71 /* yaan-Info.plist */,
+				D5F0075E19624BCF00D25B71 /* Localizable.strings */,
 				D52A432E1960E8E8009B75CE /* InfoPlist.strings */,
 				D52A43311960E8E8009B75CE /* main.m */,
 				D52A43331960E8E8009B75CE /* yaan-Prefix.pch */,
@@ -645,6 +661,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = D52A43191960E8E8009B75CE;
 			productRefGroup = D52A43231960E8E8009B75CE /* Products */;
@@ -673,11 +690,14 @@
 				D52A441A196142A1009B75CE /* HomeBoard.xib in Resources */,
 				D52A4421196142A1009B75CE /* StoryBoard.xib in Resources */,
 				D52A43301960E8E8009B75CE /* InfoPlist.strings in Resources */,
+				D5F0076319624FBD00D25B71 /* download_zh.plist in Resources */,
+				D5F0076119624DC600D25B71 /* yaan-Info.plist in Resources */,
 				D52A4423196142A1009B75CE /* VideoPlay.xib in Resources */,
 				D52A4418196142A1009B75CE /* DownloadWin.xib in Resources */,
 				D52A43391960E8E8009B75CE /* Main.storyboard in Resources */,
 				D52A4417196142A1009B75CE /* DownloadTableViewCell.xib in Resources */,
 				D52A441D196142A1009B75CE /* LandscapeBoard.xib in Resources */,
+				D5F0075C19624BCF00D25B71 /* Localizable.strings in Resources */,
 				D52A441B196142A1009B75CE /* HumanityBoard.xib in Resources */,
 				D52A4420196142A1009B75CE /* PopDetailView.xib in Resources */,
 			);
@@ -772,6 +792,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				D52A432F1960E8E8009B75CE /* en */,
+				D5F007551962498000D25B71 /* Base */,
+				D5F0075A19624BBC00D25B71 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -780,6 +802,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D52A43381960E8E8009B75CE /* Base */,
+				D5F0075819624BBC00D25B71 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -788,8 +811,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				D52A434E1960E8E8009B75CE /* en */,
+				D5F0075B19624BBC00D25B71 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D5F0075E19624BCF00D25B71 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F0075D19624BCF00D25B71 /* zh-Hans */,
+				D5F0075F19624BD400D25B71 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -874,6 +907,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yaan/yaan-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "yaan/yaan-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
@@ -893,6 +931,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yaan/yaan-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "yaan/yaan-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (

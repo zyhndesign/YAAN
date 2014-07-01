@@ -20,11 +20,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Dhd-Qu-Rzl">
+                                <rect key="frame" x="502" y="599" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="loadActivityIndicator" destination="Dhd-Qu-Rzl" id="Hs8-ne-w7Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -125,15 +132,15 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="communityBtn" destination="vgY-0s-li0" id="Cn0-ba-uwS"/>
-                        <outlet property="humanityBtn" destination="Bqk-Pe-mdd" id="15M-qF-gkY"/>
-                        <outlet property="landscapeBtn" destination="DlG-dy-4pc" id="WFg-Xg-Bjb"/>
+                        <outlet property="communityBtn" destination="vgY-0s-li0" id="m4q-za-psv"/>
+                        <outlet property="humanityBtn" destination="Bqk-Pe-mdd" id="5OA-DD-r1n"/>
+                        <outlet property="landscapeBtn" destination="DlG-dy-4pc" id="0sb-NI-f0A"/>
                         <outlet property="mainScrollView" destination="Gae-gy-td1" id="Hha-Ir-R9c"/>
                         <outlet property="menuPanel" destination="aeq-W9-Wy2" id="czb-LM-b2Z"/>
                         <outlet property="menuViewBtn" destination="cAR-ma-rcj" id="sdX-1H-xY2"/>
                         <outlet property="musicBtn" destination="VMu-aC-Dj2" id="uA4-Qq-iXv"/>
-                        <outlet property="recommendBtn" destination="5yK-r9-nmZ" id="QBf-Nb-1lg"/>
-                        <outlet property="storyBtn" destination="H8O-EF-0ue" id="WD5-Ah-lel"/>
+                        <outlet property="recommendBtn" destination="5yK-r9-nmZ" id="RWz-qf-rKZ"/>
+                        <outlet property="storyBtn" destination="H8O-EF-0ue" id="Tab-JE-bvn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zxk-UU-Jap" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -143,9 +150,9 @@
     </scenes>
     <resources>
         <image name="entrance" width="1024" height="768"/>
-        <image name="menu" width="27" height="26"/>
+        <image name="menu" width="60" height="60"/>
         <image name="menu02" width="597" height="60"/>
-        <image name="menuMusic" width="26" height="26"/>
+        <image name="menuMusic" width="60" height="60"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

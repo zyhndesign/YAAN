@@ -10,14 +10,8 @@
 
 @interface HumanityViewController : ColumnViewController
 {
-    IBOutlet UIImageView *animationLeftImg;
-    IBOutlet UIImageView *animationBottomImg;
-    IBOutlet UIImageView *animationTopImg;
-}
 
-@property (nonatomic, strong) IBOutlet UIImageView *animationLeftImg;
-@property (nonatomic, strong) IBOutlet UIImageView *animationBottomImg;
-@property (nonatomic, strong) IBOutlet UIImageView *animationTopImg;
+}
 
 - (IBAction)pageChange:(id)sender;
 @end

@@ -10,13 +10,8 @@
 
 @interface LandscapeViewController : ColumnViewController
 {
-    IBOutlet UIImageView *animationRightImg;
-    IBOutlet UIImageView *animationLeftImg;
 }
 
 - (IBAction)changePage:(id)sender;
-
-@property (nonatomic, strong) IBOutlet UIImageView *animationLeftImg;
-@property (nonatomic, strong) IBOutlet UIImageView *animationRightImg;
 
 @end

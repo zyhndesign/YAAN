@@ -14,15 +14,11 @@
 #import "../classes/UILabel+VerticalAlign.h"
 
 @interface StoryViewController ()
-{
-    int animationLeftImgY;
-    int animationBottomImgY;
-}
+
 @end
 
 @implementation StoryViewController
 
-@synthesize animationBottomImg, animationLeftImg;
 
 extern DBUtils *db;
 
@@ -76,8 +72,6 @@ extern DBUtils *db;
         }
     }
 
-    animationLeftImgY = animationLeftImg.frame.origin.y;
-    animationBottomImgY = animationBottomImg.frame.origin.y;
 }
 
 -(void) assemblePanel:(int) pageNum
@@ -209,22 +203,6 @@ extern DBUtils *db;
         [columnScrollView addSubview:subview];
         
         [muDistionary setObject:subview forKey:[NSNumber  numberWithInt:(pageNum)]];
-    }
-}
-
-#define HeighTopOne 800
-#define HeighTopTwo 1200
-
-- (void)rootscrollViewDidScrollToPointY:(int)pointY
-{
-    if (pointY > 400 && pointY < 800)
-    {
-        int positionYOne = animationLeftImgY - (pointY - 500)/3;
-        // positionYOne = positionYOne < HeighTopOne ? HeighTopOne:positionYOne;
-        int positionYTwo = animationBottomImgY - (pointY - 500)/6;
-        positionYTwo = positionYTwo < HeighTopTwo ? HeighTopTwo:positionYTwo;
-        [animationLeftImg setFrame:CGRectMake(animationLeftImg.frame.origin.x, positionYOne, animationLeftImg.frame.size.width, animationLeftImg.frame.size.height)];
-        [animationBottomImg setFrame:CGRectMake(animationBottomImg.frame.origin.x, positionYTwo, animationBottomImg.frame.size.width, animationBottomImg.frame.size.height)];
     }
 }
 

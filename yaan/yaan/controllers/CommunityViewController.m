@@ -14,14 +14,10 @@
 #import "../classes/UILabel+VerticalAlign.h"
 
 @interface CommunityViewController ()
-{
-    int animationBottomImgY;
-}
+
 @end
 
 @implementation CommunityViewController
-
-@synthesize animationBottomImg;
 
 extern DBUtils *db;
 
@@ -70,7 +66,6 @@ extern DBUtils *db;
             [self assemblePanel:i];
         }
     }
-    animationBottomImgY = animationBottomImg.frame.origin.y;
 }
 
 -(void) assemblePanel:(int) pageNum
@@ -261,16 +256,6 @@ extern DBUtils *db;
     // Dispose of any resources that can be recreated.
 }
 
-#define HeighTopOne 975
-- (void)rootscrollViewDidScrollToPointY:(int)pointY
-{
-    if (pointY > 700 && pointY < 868)
-    {
-        int positionYOne = animationBottomImgY - (pointY - 400)*2/5;
-        positionYOne = positionYOne < HeighTopOne ? HeighTopOne:positionYOne;
-        [animationBottomImg setFrame:CGRectMake(animationBottomImg.frame.origin.x, positionYOne, animationBottomImg.frame.size.width, animationBottomImg.frame.size.height)];
-    }
-}
 /*
 #pragma mark - Navigation
 

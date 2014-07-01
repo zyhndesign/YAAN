@@ -10,10 +10,8 @@
 
 @interface CommunityViewController : ColumnViewController
 {
-    IBOutlet UIImageView *animationBottomImg;
+   
 }
-
-@property (nonatomic, strong)IBOutlet UIImageView *animationBottomImg;
 
 - (IBAction)pageChange:(id)sender;
 

@@ -50,7 +50,7 @@ VideoViewController *videoViewController = nil;
     // hits until it is set to a new value or to nil.
     webView.alpha = 1;
     self.screenName = @"查看内容详情界面";
-    self.view.backgroundColor = [UIColor clearColor];
+    //self.view.backgroundColor = [UIColor clearColor];
     [[GAI sharedInstance].defaultTracker set:self.screenName
                                        value:@"Pop Screen"];
     

@@ -10,13 +10,7 @@
 
 @interface StoryViewController : ColumnViewController
 {
-    
-    IBOutlet UIImageView *animationBottomImg;
-    IBOutlet UIImageView *animationLeftImg;
 }
-
-@property (nonatomic, strong)  IBOutlet UIImageView *animationBottomImg;
-@property (nonatomic, strong) IBOutlet UIImageView *animationLeftImg;
 
 - (IBAction)changePage:(id)sender;
 
