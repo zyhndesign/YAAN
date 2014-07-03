@@ -157,9 +157,18 @@ PopupDetailViewController* detailViewController;
         //[player setFullscreen:YES];
         [player play];
         
-        
+        NSNotificationCenter *center = [NSNotificationCenter defaultCenter];
+        [center addObserver:self selector:@selector(reActivityAudio) name:@"HOME_PAGE_VIDEO" object:nil];
     }
 
+}
+
+-(void) reActivityAudio
+{
+    if (nil != player && mp != nil)
+    {
+        [player play];
+    }
 }
 
 #define HeighTop 825
