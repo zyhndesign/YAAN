@@ -25,6 +25,10 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="musicBg" translatesAutoresizingMaskIntoConstraints="NO" id="2JE-L8-98h">
+                    <rect key="frame" x="0.0" y="0.0" width="450" height="51"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progressViewStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="IL5-it-ydf">
                     <rect key="frame" x="0.0" y="47" width="450" height="3"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -79,6 +83,7 @@
         </view>
     </objects>
     <resources>
+        <image name="musicBg" width="430" height="51"/>
         <image name="musicIcon" width="76" height="51"/>
     </resources>
 </document>
