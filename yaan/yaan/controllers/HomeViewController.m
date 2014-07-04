@@ -135,9 +135,7 @@ PopupDetailViewController* detailViewController;
     
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"cover" ofType:@"mp4"];
-    
-    NSLog(@"%@", path);
-    
+        
     if ([fileUtils fileISExist:path])
     {
         NSURL *mp4Url = [NSURL fileURLWithPath:path];

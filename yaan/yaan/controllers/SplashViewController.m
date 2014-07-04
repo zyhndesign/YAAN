@@ -104,18 +104,21 @@ NSUserDefaults *baseInfo = nil;
     }
     
     NSURL *visitPath = [NSURL URLWithString:[[[rootPath stringByAppendingString:@"/travel/dataUpdate.json?lastUpdateDate="] stringByAppendingString:getDataTime ] stringByAppendingString: @"&category=18"]];
-    
+   
     NSURLRequest *request = [NSURLRequest requestWithURL:visitPath];
     
-    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
-        NSArray *array = JSON;
-        
+    AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request
+        success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
+        NSLog(@"%@",[request description]);
+        NSArray *array = (NSArray *)JSON;
+        NSLog(@"%@",JSON);
         NSMutableDictionary* muDict = nil;
         
         NSDate* currDate = [NSDate date];
         NSDateFormatter* formater = [NSDateFormatter new];
         [formater setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
         NSString* currTime = [formater stringFromDate:currDate];
+        NSLog(@"%d",array.count);
         
         for (int i = 0; i < array.count; i++)
         {

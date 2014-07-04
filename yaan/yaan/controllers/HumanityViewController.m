@@ -223,39 +223,6 @@ extern DBUtils *db;
             lineThreeView.hidden = YES;
         }
         
-        if (muArray.count >= 4 && [muArray objectAtIndex:3])
-        {
-            NSMutableDictionary *muDict = [muArray objectAtIndex:3];
-            UIImageView *fourImg = (UIImageView*)[subview viewWithTag:217];
-            //异步加载图片
-            downOperation = [self loadingImageOperation:muDict andImageView:fourImg];
-            if (downOperation != nil)
-            {
-                [thumbDownQueue addOperation:downOperation];
-            }
-            
-            UILabel* fourLabelTitle = (UILabel*)[subview viewWithTag:218];
-            [fourLabelTitle setText:[muDict objectForKey:@"title"]];
-            UILabel* fourLabelTime = (UILabel*)[subview viewWithTag:219];
-            [fourLabelTime setText:[TimeUtil convertTimeFormat:[muDict objectForKey:@"timestamp"]]];
-            UILabel* fourLabelDesc = (UILabel*)[subview viewWithTag:220];
-            [fourLabelDesc setText:[muDict objectForKey:@"description"]];
-            [fourLabelDesc alignTop];
-            fourLabelDesc.lineBreakMode = NSLineBreakByTruncatingTail;
-            
-            fourPanel.accessibilityLabel = [muDict objectForKey:@"serverID"];
-            [fourPanel addTarget:self action:@selector(panelClick:) forControlEvents:UIControlEventTouchUpInside];
-            
-            if ([[muDict objectForKey:@"hasVideo"] intValue] == 1)
-            {
-                [self addVideoImage:fourImg];
-            }
-        }
-        else
-        {
-            fourPanel.hidden = YES;
-        }
-        
         [columnScrollView addSubview:subview];
         
         [muDistionary setObject:subview forKey:[NSNumber  numberWithInt:(pageNum)]];

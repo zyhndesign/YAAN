@@ -15,6 +15,10 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="1579"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="coHouse" translatesAutoresizingMaskIntoConstraints="NO" id="eTF-AB-hIx">
+                    <rect key="frame" x="0.0" y="792" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="150" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJc-jA-eVP">
                     <rect key="frame" x="0.0" y="953" width="1024" height="450"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -34,10 +38,6 @@
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="coWords" translatesAutoresizingMaskIntoConstraints="NO" id="RT1-P8-ay0">
                     <rect key="frame" x="0.0" y="534" width="1024" height="392"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="coHouse" translatesAutoresizingMaskIntoConstraints="NO" id="eTF-AB-hIx">
-                    <rect key="frame" x="0.0" y="792" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </imageView>
             </subviews>

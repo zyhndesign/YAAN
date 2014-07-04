@@ -48,14 +48,14 @@ extern DBUtils *db;
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    [musicPreviousBtn setBackgroundImage:[UIImage imageNamed:@"musicLastDefault"] forState:UIControlStateNormal];
-    [musicPreviousBtn setBackgroundImage:[UIImage imageNamed:@"musicLastActivied"] forState:UIControlStateSelected];
+    [musicPreviousBtn setBackgroundImage:[UIImage imageNamed:@"musicPre"] forState:UIControlStateNormal];
+    [musicPreviousBtn setBackgroundImage:[UIImage imageNamed:@"musicPre"] forState:UIControlStateSelected];
     
-    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPlayDefault"] forState:UIControlStateNormal];
-    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPlayActivied"] forState:UIControlStateSelected];
+    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPlay"] forState:UIControlStateNormal];
+    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPlay"] forState:UIControlStateSelected];
     
-    [musicNextBtn setBackgroundImage:[UIImage imageNamed:@"musicNextDefault"] forState:UIControlStateNormal];
-    [musicNextBtn setBackgroundImage:[UIImage imageNamed:@"musicNextActivied"] forState:UIControlStateSelected];
+    [musicNextBtn setBackgroundImage:[UIImage imageNamed:@"musicNext"] forState:UIControlStateNormal];
+    [musicNextBtn setBackgroundImage:[UIImage imageNamed:@"musicNext"] forState:UIControlStateSelected];
         
     musicProgressView.progress = 0;
     
@@ -439,15 +439,15 @@ extern DBUtils *db;
 
 -(void) setBtnPause
 {
-    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPlayDefault"] forState:UIControlStateNormal];
-    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPlayActivied"] forState:UIControlStateSelected];
+    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPlay"] forState:UIControlStateNormal];
+    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPlay"] forState:UIControlStateSelected];
     
 }
 
 -(void) setBtnPlay
 {
-    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPurposeDefault"] forState:UIControlStateNormal];
-    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPurposeActivied"] forState:UIControlStateSelected];
+    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPause"] forState:UIControlStateNormal];
+    [musicPlayOrPauseBtn setBackgroundImage:[UIImage imageNamed:@"musicPause"] forState:UIControlStateSelected];
 }
 
 -(void)pauseMusic

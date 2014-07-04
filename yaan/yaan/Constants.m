@@ -17,7 +17,7 @@ const int MUSIC_CATEGOTY = 4;
 const int VIDEO_CATEGORY = 5;
 
 const int LANDSCAPE_PAGE_INSIDE_NUM = 3;
-const int HUMANITY_PAGE_INSIDE_NUM = 4;
+const int HUMANITY_PAGE_INSIDE_NUM = 3;
 const int STORY_PAGE_INSIDE_NUM = 3;
 const int COMMUNITY_INSIDE_NUM = 4;
 

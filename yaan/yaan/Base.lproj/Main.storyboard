@@ -53,15 +53,15 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </scrollView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="menu" translatesAutoresizingMaskIntoConstraints="NO" id="cAR-ma-rcj">
-                                <rect key="frame" x="74" y="40" width="50" height="50"/>
+                                <rect key="frame" x="49" y="40" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="menuMusic" translatesAutoresizingMaskIntoConstraints="NO" id="VMu-aC-Dj2">
-                                <rect key="frame" x="900" y="40" width="50" height="50"/>
+                                <rect key="frame" x="931" y="40" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aeq-W9-Wy2">
-                                <rect key="frame" x="74" y="40" width="597" height="50"/>
+                                <rect key="frame" x="49" y="40" width="597" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="menu02" translatesAutoresizingMaskIntoConstraints="NO" id="BLJ-Fw-DJm">

@@ -93,10 +93,10 @@ extern PopupDetailViewController* detailViewController;
 
 -(void) addVideoImage:(UIView *)view
 {
-    UIImage *videoImage = [UIImage imageNamed:@"video"];
+    UIImage *videoImage = [UIImage imageNamed:@"hasVideo"];
     UIImageView *videoImgView = [[UIImageView alloc] initWithImage:videoImage];
     videoImgView.contentMode = UIViewContentModeScaleAspectFit;
-    videoImgView.frame = CGRectMake(0, 0, 40, 35);
+    videoImgView.frame = CGRectMake(view.bounds.size.width / 2 - 20, 100, 44, 44);
     [view addSubview:videoImgView];
 }
 
