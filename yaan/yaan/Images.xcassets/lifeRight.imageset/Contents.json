@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "fengmian-logo.png"
+      "filename" : "sh-turnrignt.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "fengmian-logo@2x.png"
+      "filename" : "sh-turnrignt@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

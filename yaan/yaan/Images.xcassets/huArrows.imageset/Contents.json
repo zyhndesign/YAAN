@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "hu-arrows.png"
+      "filename" : "sh-fb-bg.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "hu-arrows@2x.png"
+      "filename" : "sh-fb-bg@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "hu-words.png"
+      "filename" : "sh-word.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "hu-words@2x.png"
+      "filename" : "sh-word@2xs.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

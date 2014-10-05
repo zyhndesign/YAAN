@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "menu-music.png"
+      "filename" : "music.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "menu-music@2x.png"
+      "filename" : "music@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

@@ -16,6 +16,9 @@
     int countPage;
     BOOL pageControlBeingUsed;
     UIPageControl *pageControl;
+    
+    UIImageView *rightArrow;
+    UIImageView *leftArrow;
 }
 
 /**

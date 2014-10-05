@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "project-logo_41.png"
+      "filename" : "logoAI.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "project-logo.png"
+      "filename" : "logoAI@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

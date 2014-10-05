@@ -36,6 +36,30 @@
         CGFloat pageWidth = columnScrollView.frame.size.width;
         currentPage = floor((columnScrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
         pageControl.currentPage = currentPage;
+        
+        if (leftArrow != nil)
+        {
+            if (currentPage == 0)
+            {
+                leftArrow.hidden = YES;
+            }
+            else
+            {
+                leftArrow.hidden = NO;
+            }
+        }
+        
+        if (rightArrow != nil)
+        {
+            if (currentPage == (countPage - 1))
+            {
+                rightArrow.hidden = YES;
+            }
+            else
+            {
+                rightArrow.hidden = NO;
+            }
+        }
     }
     
 }

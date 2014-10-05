@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "co-bg.png"
+      "filename" : "ja-bg.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "co-bg@2x.png"
+      "filename" : "ja-bg@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

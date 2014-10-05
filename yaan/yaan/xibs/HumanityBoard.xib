@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HumanityViewController">
@@ -17,35 +17,50 @@
             <subviews>
                 <pageControl opaque="NO" tag="151" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="XFa-fO-YMR">
                     <rect key="frame" x="493" y="1472" width="39" height="37"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <connections>
                         <action selector="pageChange:" destination="-1" eventType="valueChanged" id="6ge-lo-Ygh"/>
                     </connections>
                 </pageControl>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="huBg" translatesAutoresizingMaskIntoConstraints="NO" id="P3q-J3-7fi">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="huWords" translatesAutoresizingMaskIntoConstraints="NO" id="Jqw-aQ-Cf7">
-                    <rect key="frame" x="211" y="493" width="600" height="550"/>
-                    <autoresizingMask key="autoresizingMask"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="huArrows" translatesAutoresizingMaskIntoConstraints="NO" id="2fv-ll-ppO">
                     <rect key="frame" x="0.0" y="767" width="1024" height="768"/>
-                    <autoresizingMask key="autoresizingMask"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="huWords" translatesAutoresizingMaskIntoConstraints="NO" id="Jqw-aQ-Cf7">
+                    <rect key="frame" x="211" y="370" width="600" height="550"/>
                 </imageView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="150" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obN-Y8-8ZQ">
                     <rect key="frame" x="0.0" y="968" width="1024" height="500"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </scrollView>
+                <pageControl opaque="NO" tag="351" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="W5e-yY-MQt">
+                    <rect key="frame" x="492" y="1486" width="39" height="37"/>
+                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </pageControl>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="230" contentMode="center" fixedFrame="YES" image="lifeLeft" translatesAutoresizingMaskIntoConstraints="NO" id="gvQ-uY-ZkL">
+                    <rect key="frame" x="0.0" y="1200" width="47" height="46"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="231" contentMode="center" fixedFrame="YES" image="lifeRight" translatesAutoresizingMaskIntoConstraints="NO" id="RYL-6R-iSy">
+                    <rect key="frame" x="973" y="1200" width="48" height="46"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="0.85098039219999999" green="0.90980392160000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
         </view>
     </objects>
     <resources>
-        <image name="huArrows" width="1024" height="768"/>
+        <image name="huArrows" width="1024" height="770"/>
         <image name="huBg" width="1024" height="768"/>
-        <image name="huWords" width="890" height="473"/>
+        <image name="huWords" width="682" height="573"/>
+        <image name="lifeLeft" width="47" height="46"/>
+        <image name="lifeRight" width="48" height="46"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
 </document>

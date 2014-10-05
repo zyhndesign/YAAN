@@ -43,9 +43,12 @@ extern DBUtils *db;
         countPage = countPage + 1;
     }
     
+    rightArrow = (UIImageView *)[self.view viewWithTag:331];
+    leftArrow  = (UIImageView *)[self.view viewWithTag:330];
+    
     columnScrollView = (UIScrollView *)[self.view viewWithTag:150];
     
-    pageControl = (UIPageControl *)[self.view viewWithTag:151];
+    pageControl = (UIPageControl *)[self.view viewWithTag:551];
     
     columnScrollView.contentSize = CGSizeMake(columnScrollView.frame.size.width * countPage, columnScrollView.frame.size.height);
     columnScrollView.delegate = self;
@@ -72,6 +75,11 @@ extern DBUtils *db;
         }
     }
 
+    if (countPage == 1)
+    {
+        rightArrow.hidden = YES;
+    }
+    leftArrow.hidden = YES;
 }
 
 -(void) assemblePanel:(int) pageNum

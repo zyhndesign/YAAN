@@ -244,6 +244,7 @@
 		D52A4412196142A1009B75CE /* StoryBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryBoard.xib; sourceTree = "<group>"; };
 		D52A4413196142A1009B75CE /* StoryContentPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryContentPanel.xib; sourceTree = "<group>"; };
 		D52A4414196142A1009B75CE /* VideoPlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoPlay.xib; sourceTree = "<group>"; };
+		D5A4E3C919E0DF2000333DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D5F00751196246B200D25B71 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D5F007551962498000D25B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5F0075819624BBC00D25B71 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -660,6 +661,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "中意工业设计（湖南）有限责任公司";
 				TargetAttributes = {
+					D52A43211960E8E8009B75CE = {
+						DevelopmentTeam = FNB4FR5EG6;
+					};
 					D52A43421960E8E8009B75CE = {
 						TestTargetID = D52A43211960E8E8009B75CE;
 					};
@@ -833,6 +837,7 @@
 			children = (
 				D5F0075D19624BCF00D25B71 /* zh-Hans */,
 				D5F0075F19624BD400D25B71 /* en */,
+				D5A4E3C919E0DF2000333DA3 /* Base */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -917,6 +922,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yaan/yaan-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -931,6 +938,7 @@
 					"/Volumes/MAC_DATA/第三方组件/GoogleAnalyticsServicesiOS_3.06",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -941,6 +949,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "yaan/yaan-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -955,6 +965,7 @@
 					"/Volumes/MAC_DATA/第三方组件/GoogleAnalyticsServicesiOS_3.06",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};

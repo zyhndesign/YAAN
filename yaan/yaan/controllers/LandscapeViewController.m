@@ -42,6 +42,9 @@ extern DBUtils *db;
         countPage = countPage + 1;
     }
     
+    rightArrow = (UIImageView *)[self.view viewWithTag:131];
+    leftArrow  = (UIImageView *)[self.view viewWithTag:130];
+    
     columnScrollView = (UIScrollView *)[self.view viewWithTag:150];
     pageControl = (UIPageControl *)[self.view viewWithTag:151];
     
@@ -69,6 +72,11 @@ extern DBUtils *db;
         }
     }
     
+    if (countPage == 1)
+    {
+        rightArrow.hidden = YES;
+    }
+    leftArrow.hidden = YES;
 }
 
 -(void) assemblePanel:(int) pageNum

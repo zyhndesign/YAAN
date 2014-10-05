@@ -10,31 +10,30 @@
 	<string>yaan</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>39422C62-1F43-4F0B-B8D8-D15EF6A429B2</key>
+		<key>55B47172F705F77ECC54FE7C58255C712706FC9C</key>
 		<string>https://github.com/zyhndesign/YAAN.git</string>
 		<key>CCC74F81-904F-41C3-A258-316DD5E1FE0E</key>
+		<string>https://192.168.1.137/svn/DesignDoc</string>
+		<key>f09466a1-9243-7148-848b-6bbb744640e8</key>
 		<string>https://192.168.1.137/svn/DesignDoc</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>yaan/yaan.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>39422C62-1F43-4F0B-B8D8-D15EF6A429B2</key>
+		<key>55B47172F705F77ECC54FE7C58255C712706FC9C</key>
 		<string>../../..</string>
 		<key>CCC74F81-904F-41C3-A258-316DD5E1FE0E</key>
-		<string>../../../../../../MAC_DATA</string>
-	</dict>
-	<key>IDESourceControlProjectRepositoryRootDictionary</key>
-	<dict>
-		<key>CCC74F81-904F-41C3-A258-316DD5E1FE0E</key>
-		<string>https://192.168.1.137/svn/DesignDoc</string>
+		<string>../../../../MAC_DATA</string>
+		<key>f09466a1-9243-7148-848b-6bbb744640e8</key>
+		<string>../../../../MAC_DATA</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/zyhndesign/YAAN.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>39422C62-1F43-4F0B-B8D8-D15EF6A429B2</string>
+	<string>55B47172F705F77ECC54FE7C58255C712706FC9C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -47,9 +46,17 @@
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>f09466a1-9243-7148-848b-6bbb744640e8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MAC_DATA</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>39422C62-1F43-4F0B-B8D8-D15EF6A429B2</string>
+			<string>55B47172F705F77ECC54FE7C58255C712706FC9C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>YAAN</string>
 		</dict>

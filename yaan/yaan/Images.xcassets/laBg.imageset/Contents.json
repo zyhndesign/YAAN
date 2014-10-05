@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "la-bg_27.png"
+      "filename" : "la-bgx.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
       "filename" : "la-bg@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

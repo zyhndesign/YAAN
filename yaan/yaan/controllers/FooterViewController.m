@@ -38,6 +38,7 @@ DownloadViewController *downloadViewController;
     // Do any additional setup after loading the view.
     
     downloadImageView.userInteractionEnabled = YES;
+    
     [bgTextlabel setText:NSLocalizedString(@"projectBg", nil)];
     [bgTextlabel alignTop];
     UITapGestureRecognizer *sigTab = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(downLoadFiles)];

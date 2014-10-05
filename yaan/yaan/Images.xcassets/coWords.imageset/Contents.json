@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "co-words.png"
+      "filename" : "ja-words.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "co-words@2x.png"
+      "filename" : "ja-words@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {

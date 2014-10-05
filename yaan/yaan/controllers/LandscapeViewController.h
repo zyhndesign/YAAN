@@ -10,7 +10,9 @@
 
 @interface LandscapeViewController : ColumnViewController
 {
+    
 }
+
 
 - (IBAction)changePage:(id)sender;
 

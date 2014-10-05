@@ -3,12 +3,16 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "ar-field.png"
+      "filename" : "ar-fb-bg.png"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "ar-field@2x.png"
+      "filename" : "ar-fb-bg@2x.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {
