@@ -29,13 +29,45 @@
     // Do any additional setup after loading the view.
 }
 
+-(void) viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    NSArray *subView = pageControl.subviews;
+    for (int i = 0; i < [subView count]; i++)
+    {
+        UIView *dotView = [subView objectAtIndex:i];
+        if (currentPage == i)
+        {
+            dotView.layer.contents = (__bridge id)[[UIImage imageNamed:@"pageOn"] CGImage];
+        }
+        else
+        {
+            dotView.layer.contents = (__bridge id)[[UIImage imageNamed:@"pageDown"] CGImage];
+        }
+    }
+}
+
 - (void) scrollViewDidScroll:(UIScrollView *)scrollView
 {
     if (!pageControlBeingUsed)
     {
         CGFloat pageWidth = columnScrollView.frame.size.width;
         currentPage = floor((columnScrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
-        pageControl.currentPage = currentPage;
+        
+        NSArray *subView = pageControl.subviews;
+        
+        for (int i = 0; i < [subView count]; i++)
+        {
+            UIView *dotView = [subView objectAtIndex:i];
+            if (currentPage == i)
+            {
+                dotView.layer.contents = (__bridge id)[[UIImage imageNamed:@"pageOn"] CGImage];
+            }
+            else
+            {
+                dotView.layer.contents = (__bridge id)[[UIImage imageNamed:@"pageDown"] CGImage];
+            }
+        }
         
         if (leftArrow != nil)
         {

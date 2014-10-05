@@ -79,7 +79,9 @@ extern DBUtils *db;
         rightArrow.hidden = YES;
     }
     leftArrow.hidden = YES;
+   
 }
+
 
 - (void)didReceiveMemoryWarning
 {
