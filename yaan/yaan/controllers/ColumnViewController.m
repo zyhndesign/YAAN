@@ -36,6 +36,7 @@
     for (int i = 0; i < [subView count]; i++)
     {
         UIView *dotView = [subView objectAtIndex:i];
+        dotView.frame = CGRectMake(dotView.frame.origin.x, dotView.frame.origin.y, dotView.frame.size.width + 5, dotView.frame.size.height + 5);
         if (currentPage == i)
         {
             dotView.layer.contents = (__bridge id)[[UIImage imageNamed:@"pageOn"] CGImage];
@@ -44,6 +45,7 @@
         {
             dotView.layer.contents = (__bridge id)[[UIImage imageNamed:@"pageDown"] CGImage];
         }
+        
     }
 }
 
@@ -59,6 +61,7 @@
         for (int i = 0; i < [subView count]; i++)
         {
             UIView *dotView = [subView objectAtIndex:i];
+           
             if (currentPage == i)
             {
                 dotView.layer.contents = (__bridge id)[[UIImage imageNamed:@"pageOn"] CGImage];

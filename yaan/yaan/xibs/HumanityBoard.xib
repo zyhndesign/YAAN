@@ -29,8 +29,8 @@
                 </scrollView>
                 <pageControl opaque="NO" tag="351" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="W5e-yY-MQt">
                     <rect key="frame" x="492" y="1486" width="39" height="37"/>
-                    <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <color key="currentPageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="pageIndicatorTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </pageControl>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="230" contentMode="center" fixedFrame="YES" image="lifeLeft" translatesAutoresizingMaskIntoConstraints="NO" id="gvQ-uY-ZkL">
                     <rect key="frame" x="0.0" y="1200" width="47" height="46"/>
