@@ -25,11 +25,11 @@
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="bNi-6i-13a">
-            <rect key="frame" x="0.0" y="0.0" width="1024" height="1436"/>
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1534"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homebg" translatesAutoresizingMaskIntoConstraints="NO" id="82A-iF-9aa">
-                    <rect key="frame" x="0.0" y="766" width="1024" height="768"/>
+                    <rect key="frame" x="0.0" y="768" width="1024" height="768"/>
                 </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="houseLeft" translatesAutoresizingMaskIntoConstraints="NO" id="h3c-Is-wTx">
                     <rect key="frame" x="96" y="900" width="303" height="480"/>

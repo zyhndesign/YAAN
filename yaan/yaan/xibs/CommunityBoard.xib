@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <objects>
@@ -28,9 +29,6 @@
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="coBg" translatesAutoresizingMaskIntoConstraints="NO" id="9CJ-7Y-0we">
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 </imageView>
-                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="coWords" translatesAutoresizingMaskIntoConstraints="NO" id="RT1-P8-ay0">
-                    <rect key="frame" x="0.0" y="463" width="1024" height="392"/>
-                </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="430" contentMode="center" fixedFrame="YES" image="turnleft" translatesAutoresizingMaskIntoConstraints="NO" id="cbh-xr-rdF">
                     <rect key="frame" x="0.0" y="1150" width="53" height="44"/>
                 </imageView>
@@ -40,6 +38,9 @@
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" tag="150" contentMode="scaleToFill" fixedFrame="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJc-jA-eVP">
                     <rect key="frame" x="0.0" y="951" width="1024" height="450"/>
                 </scrollView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="coWords" translatesAutoresizingMaskIntoConstraints="NO" id="MRf-Hx-SEB">
+                    <rect key="frame" x="8" y="321" width="1024" height="619"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="0.85098039219999999" green="0.90980392160000001" blue="0.92156862750000001" alpha="1" colorSpace="calibratedRGB"/>
             <nil key="simulatedStatusBarMetrics"/>
@@ -49,7 +50,7 @@
     <resources>
         <image name="coBg" width="1024" height="768"/>
         <image name="coHouse" width="1024" height="768"/>
-        <image name="coWords" width="1024" height="614"/>
+        <image name="coWords" width="1024" height="619"/>
         <image name="turnRight" width="53" height="44"/>
         <image name="turnleft" width="53" height="44"/>
     </resources>
