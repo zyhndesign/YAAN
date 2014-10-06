@@ -113,11 +113,11 @@
     [self.view addSubview:musicViewController.view];
     
     musicBtn.userInteractionEnabled = YES;
-    UITapGestureRecognizer *sigTab = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(musicBtnClick)];
+    UITapGestureRecognizer *sigTab = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(musicBtnClick:)];
     [musicBtn addGestureRecognizer:sigTab];
     
     menuViewBtn.userInteractionEnabled = YES;
-    UITapGestureRecognizer *menuTab = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(menuBtnClick)];
+    UITapGestureRecognizer *menuTab = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(menuBtnClick:)];
     [menuViewBtn addGestureRecognizer:menuTab];
 }
 
@@ -127,7 +127,7 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void) musicBtnClick
+-(void) musicBtnClick:(UIGestureRecognizer *)gesture
 {
     if (musicViewController.view.hidden)
     {
@@ -140,18 +140,20 @@
     }
 }
 
--(void)menuBtnClick
+-(void)menuBtnClick:(UIGestureRecognizer *)gesture
 {
     [self.view bringSubviewToFront:menuViewBtn];
-    
+     UIImageView *view = (UIImageView *)gesture.view;
     if (menuPanel.hidden)
     {
         musicViewController.view.hidden = YES;
         menuPanel.hidden = NO;
+        view.image = [UIImage imageNamed:@"menu01"];
     }
     else
     {
         menuPanel.hidden = YES;
+        view.image = [UIImage imageNamed:@"menu"];
     }
 }
 
